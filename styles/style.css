@@ -1,0 +1,29 @@
+/* nav section */
+.nav-bar {
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item-active {
+    font-weight: 600;
+}
+
+.nav-item-inactive {
+    font-weight: 100;
+    color: #d1d5db;
+}
