@@ -233,7 +233,7 @@
     font-size: 19px;
     text-align: center;
     width: 888px;
-    margin-left: 170px;
+    margin-left: 100px;
     
 }
 
@@ -284,6 +284,26 @@
 .deal-content-large {
     margin-top: 160px;
     font-size: 48px;
+}
+.shop{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.shop-zabo{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.75rem;
+    
+}
+.zabo-title{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.bloom-ana{
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 /* join section */
@@ -351,6 +371,11 @@
     align-items: center;
 }
 
+.footer-img{
+    margin-left: -115px;
+    
+}
+
 .footer-logo-text {
     font-weight: 300;
     color: #6b7280;
@@ -368,10 +393,13 @@
 
 .footer-link-list {
     list-style: none;
+    width: 100px;
+    
 }
 
 .footer-link-item {
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .footer-icons {
