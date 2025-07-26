@@ -542,11 +542,16 @@
         max-width: 100%;
         min-height: auto;
     }
-
+    .de
     .deals-small {
         width: 100%;
     }
-
+    .deals-description{
+        margin-left: 55px;
+        margin-right: 28px;
+        width: 336px;
+        height: 68px;
+    }
     .deal-card {
         width: 100%;
         height: 200px;
@@ -556,7 +561,9 @@
     .deal-bloom, .deal-ana {
         height: 200px;
     }
-
+    .deal-ana{
+        border-radius: 0px;
+    }
     .deal-zabo {
         height: 200px;
     }
@@ -612,16 +619,22 @@
     .footer-links {
         grid-template-columns: 1fr;
         gap: 20px;
+     
+    }
+    .footer-link-list{
+        padding-left: 0px;
     }
 
     .footer-link-item {
         margin-top: 10px;
     }
-
+    .rr{
+        font-size:0.75rem ;
+    }
     .footer-icons {
         grid-template-columns: repeat(4, auto);
-        justify-content: center;
-        gap: 10px;
+        /* justify-content: center; */
+        width: 210px;
     }
 }
 
