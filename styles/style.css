@@ -1,3 +1,8 @@
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 /* nav section */
 .nav-bar {
     display: flex;
@@ -66,4 +71,90 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+/* out plant section */
+.plant-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.plant-heading {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.plant-title {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 44px;
+    margin-left: 8px;
+}
+
+.plant-title-orange {
+    color: #f97316;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.plant-description {
+    font-weight: 100;
+    color: #9ca3af;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: 780px;
+}
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plant-card {
+    width: 270px;
+    height: 485px;
+}
+
+.plant-image {
+    height: 322px;
+}
+
+.plant-info {
+    text-align: center;
+    height: 50px;
+}
+
+.plant-name {
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.plant-price {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.plant-button-container {
+    margin-top: 30px;
+}
+
+.plant-button {
+    color: #ffffff;
+    background-color: #ea580c;
+    width: 100%;
+    height: 45px;
+    border: none;
+    cursor: pointer;
 }
