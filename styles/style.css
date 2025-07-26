@@ -50,19 +50,19 @@
 .banner-title {
     font-family: "Noto Serif", serif;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 3.8rem;
 }
 
 .banner-title-orange {
     color: #f97316;
     margin-left: 8px;
-    font-size: 55px;
+    font-size: 3.8rem;
 }
 
 .banner-description {
     font-weight: 100;
     color: #9ca3af;
-    font-size: 25px;
+    font-size: 1.3rem;
     font-family: "Inter", sans-serif;
 }
 
@@ -79,6 +79,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 1140px;
     
 }
 
@@ -90,7 +91,7 @@
 .plant-title {
     font-family: "Noto Serif", serif;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 3.1rem;
     margin-left: 8px;
 }
 
@@ -98,13 +99,13 @@
     color: #f97316;
     font-family: "Noto Serif", serif;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 3.1rem;
 }
 
 .plant-description {
     font-weight: 100;
-    color: #9ca3af;
-    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
     font-family: "Inter", sans-serif;
     margin-top: 16px;
     margin-bottom: 16px;
@@ -187,18 +188,21 @@
 
 .badge-text {
     width: 50%;
-    margin-top: 28px;
-    margin-bottom: 28px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-left: auto;
 }
 
 .badge-title {
     font-family: "Noto Serif", serif;
     font-weight: 700;
     font-size: 38px;
+    margin-bottom: 20px;
 }
 
 .badge-list {
     list-style: disc;
+    
 }
 
 .badge-list-item {
@@ -228,11 +232,14 @@
     color: #6b7280;
     font-size: 19px;
     text-align: center;
+    width: 888px;
+    margin-left: 170px;
+    
 }
 
 .deals-section {
     display: flex;
-    max-width: 1000px;
+    max-width: 1140pxpx;
     min-height: 400px;
     margin-top: 100px;
     color: #ffffff;
